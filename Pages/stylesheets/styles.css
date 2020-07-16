@@ -1,15 +1,4 @@
 @font-face {
-font-family: 'airstreamregular';
-src: url('fonts/Airstream-webfont.eot');
-src: url('fonts/Airstream-webfont.eot?#iefix') format('embedded-opentype'),
-url('fonts/Airstream-webfont.woff') format('woff'),
-url('fonts/Airstream-webfont.ttf') format('truetype'),
-url('fonts/Airstream-webfont.svg#airstreamregular') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
   font-family:'lakeshore';
   src: url('fonts/LAKESHOR-webfont.eot');
   src: url('fonts/LAKESHOR-webfont.eot?#iefix') format('embedded-opentype'),
@@ -28,6 +17,7 @@ body {
 a {
   text-decoration: none;
 }
+
 
 nav{
   width: 250px;
@@ -71,23 +61,13 @@ nav{
   background: rgb(96, 125, 139);
   color: rgb(202, 238, 255);
   font-size: 18px;
-
 }
 
 .thumbnail-content {
   color: rgb(202, 238, 255);
   font-size: 12px;
-  background: #94CCC0;
 }
 
-.thumbnail-content:nth-of-type(2n){
-  color: #66ABB8;
-  font-size: 12px;
-  background: #D2E8CE;
-}
-
-.name {
-  text-transform: uppercase;
-  font-family: 'Airstream';
-  font-size: 37px;
+#link.thumbnail-title:hover {
+  background-color: yellow;
 }

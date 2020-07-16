@@ -4,30 +4,33 @@
 <head>
   <meta charset="utf-8">
   <title>HTMl Basics</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 
 <body>
   <header>
-    <h1>About Me </h1>
+    <h1 class="logo-text">About Me </h1>
     <link rel="stylesheet" href="stylesheets/styles.css">
   </header>
   <nav>
     <h4>Menu</h4>
-    <ul>
+    <ul type = "square">
       <li><a href="Pages/pictures.html"> Go to Pictures </a></li>
       <li><a href="Pages/why.html"> Go to Why This Class? </a></li>
-    </ul>  
+    </ul>
   </nav>
 
   <main>
-    <p>
-      Hello! My name is Luan Nguyen. I'm a 4th year Computer Science Major who
+    <p class="thumbnail-content">
+      Hello! My name is <span class = "name"> Luan Nguyen </span>. I'm a 4th year Computer Science Major who
       has been stuck at home like a lot of y'all these past months. In my free
       time I like to dance, trick, and find new places for good food and drink.
       That's been a little hard to do in these times, but I do my best to keep
       up with these activites inside.
-    </p>
-    <p>
+    </p >
+    <p class="thumbnail-content">
       I end up watching a lot of Netflix instead.
       I've been watching <em>Avatar: The Last Airbender</em> and if you haven't watched
       <em>After Life </em>, it's really good. Sad and funny. Quarantine life also
@@ -35,6 +38,17 @@
       though). I'm hoping that I can go meet my friends and return to a more normal
       lifestyle soon, but seems like that might be a while.<strong>Stay healthy and do your part
       to keep everyone safe!!</strong>
+    </p>
+
+    <p class="thumbnail-content">
+      Things I Like
+      <ol class="thumbnail-content" type = "a" >
+        <li>Coffee</li>
+        <li>Boba</li>
+        <li>Tricking</li>
+        <li>Dance</li>
+        <li>KBBQ</li>
+      </ol>
     </p>
   </main>
 </body>

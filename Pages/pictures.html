@@ -4,62 +4,65 @@
 <head>
   <meta charset="utf-8">
   <title>HTMl Basics</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 
 <body>
   <header>
-    <h1>Pictures </h1>
+    <h1 class="logo-text">Pictures </h1>
   </header>
   <nav>
     <h4>Menu</h4>
-    <ul>
+    <ul type = "square">
       <li><a href="..\index.html"> Go to About Me</a></li>
       <li><a href="why.html"> Go to Why This Class? </a></li>
     </ul>
   </nav>
-  <ul>
-    <li>
+  <ul class="thumbnail-list">
+    <li class="thumbnail-item">
       <a href="#">
-        <img src="img/boba.jpeg" alt="Boba img">
-          <span>Boba</span>
+        <img class="thumbnail-image" src="img/boba.jpeg" alt="Boba img">
+          <span class="thumbnail-title">Boba</span>
       </a>
-      <p>What can I say, I like my milk teas. My favorite spots right now are
+      <p class="thumbnail-content">What can I say, I like my milk teas. My favorite spots right now are
       Sunright Tea Studio, Eightfold, and Bloomz. </p>
     </li>
-    <li>
+    <li class="thumbnail-item">
       <a href="#">
-        <img  src="img/coffee.jpeg" alt="Coffee img">
-          <span>Coffee</span>
+        <img class="thumbnail-image"  src="img/coffee.jpeg" alt="Coffee img">
+          <span class="thumbnail-title">Coffee</span>
       </a>
-      <p>I also really like coffee. I might be addicted to caffeine but thats
+      <p class="thumbnail-content">I also really like coffee. I might be addicted to caffeine but thats
       ok. Also who doesn't like some latte art. </p>
     </li>
-    <li>
-      <a href="https://www.youtube.com/watch?v=P5PMU2C4nqk">
-        <img src="img/dance.jpeg" alt="Dance img">
-          <span>Dance</span>
+    <li class="thumbnail-item">
+      <a  href="https://www.youtube.com/watch?v=P5PMU2C4nqk">
+        <img class="thumbnail-image" src="img/dance.jpeg" alt="Dance img">
+          <span id="link"  class="thumbnail-title">Dance</span>
       </a>
-      <p>Dancing is one of my passions. I'm part of a collegiate level dance team
+      <p class="thumbnail-content">Dancing is one of my passions. I'm part of a collegiate level dance team
       called Level V Origins. We're open to beginners in dance (I came with almost
       no experience!) with no auditions. This year is going to be a bit weird with
       COVID, but check us out online if you're interested. Our last performance
       is linked! I'm just playing around with href. </p>
     </li>
-    <li>
+    <li class="thumbnail-item">
       <a href="https://www.youtube.com/watch?v=LjliBuPbOVw&feature=youtu.be&fbclid=IwAR0kIOaw1uZWxKmA7JRkYjMSNGDB4d6xvIpvjUMztHGSzYwigrL8JcWSoto">
-        <img src="img/flip.jpeg" alt="Flip img">
-          <span>Flip</span>
+        <img class="thumbnail-image" src="img/flip.jpeg" alt="Flip img">
+          <span id="link" class="thumbnail-title">Flip</span>
       </a>
-      <p>Tricking is a combination of martial arts, flips, breakdance, capoeira,
+      <p class="thumbnail-content">Tricking is a combination of martial arts, flips, breakdance, capoeira,
       gymnastics and a lot more disciplines of movement and expression. It's hard
       to put into words, so click on the image for a video to explain.   </p>
     </li>
-    <li>
+    <li class="thumbnail-item">
       <a href="#">
-        <img src="img/kbbq.jpeg" alt="Kbbq img">
-          <span>Kbbq</span>
+        <img class="thumbnail-image" src="img/kbbq.jpeg" alt="Kbbq img">
+          <span class="thumbnail-title">Kbbq</span>
       </a>
-      <p>All you can eat. Anytime. Anywhere. </p>
+      <p class="thumbnail-content">All you can eat. Anytime. Anywhere. </p>
     </li>
   </ul>
 </body>
